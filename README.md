@@ -6,6 +6,8 @@
 
 [Current Configuration](./slicemk_ergodox.json)
 
+[Current Keymap](./slicemk_ergodox.keymap)
+
 [Configurator](https://config.slicemk.com/zmk/)
 
 [Website](https://www.slicemk.com/pages/ergodox-wireless)

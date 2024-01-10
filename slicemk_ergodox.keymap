@@ -1,0 +1,71 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/rgb.h>
+
+#define LAYER_MAC 0
+#define LAYER_FN 1
+#define LAYER_SYMB 2
+#define LAYER_WINDOWS 3
+
+
+
+/ {
+	keymap {
+		compatible = "zmk,keymap";
+		layer_0 {
+			bindings = <
+				&bootloader
+				&kp EQUAL               &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5  &none             &none             &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8          &kp NUMBER_9 &kp NUMBER_0  &kp BACKSPACE
+				&kp TAB                 &kp Q        &kp W        &kp E        &kp R        &kp T         &kp C_VOLUME_UP   &kp C_MUTE        &kp Y        &kp U          &kp I                 &kp O        &kp P         &kp BACKSLASH
+				&mt LEFT_CONTROL ESCAPE &kp A        &kp S        &kp D        &kp F        &kp G                                             &kp H        &kp J          &kp K                 &kp L        &kp SEMICOLON &kp SINGLE_QUOTE
+				&kp LEFT_SHIFT          &kp Z        &kp X        &kp C        &kp V        &kp B         &kp C_VOLUME_DOWN &to LAYER_WINDOWS &kp N        &kp M          &kp COMMA             &kp PERIOD   &kp SLASH     &kp RIGHT_SHIFT
+				&none                   &none        &none        &none        &kp LEFT_ALT                                                                &mo LAYER_SYMB &kp RS(RC(RIGHT_ALT)) &none        &none         &none
+				                                                                            &none         &none             &none             &none
+				                                                               &kp LEFT_GUI &kp BACKSPACE &none             &none             &kp RETURN   &kp SPACE
+				                                                                                          &none             &mo LAYER_FN
+			>;
+		};
+		layer_1 {
+			bindings = <
+				&bootloader
+				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &none &none &none &none   &none   &none   &none   &bootloader
+				&out OUT_USB &kp F1       &kp F2       &kp F3       &kp F4       &none &none &none &none &kp F13 &kp F14 &kp F15 &kp F16 &none
+				&out OUT_BLE &kp F5       &kp F6       &kp F7       &kp F8       &none             &none &kp F17 &kp F18 &kp F19 &kp F20 &none
+				&none        &kp F9       &kp F10      &kp F11      &kp F12      &none &none &none &none &kp F21 &kp F22 &kp F23 &kp F24 &bt BT_CLR
+				&none        &none        &none        &none        &none                                &none   &none   &none   &none   &none
+				                                                                 &none &none &none &none
+				                                                    &none        &none &none &none &none &none
+				                                                                       &none &none
+			>;
+		};
+		layer_2 {
+			bindings = <
+				&bootloader
+				&none &none          &none           &none                &none                 &none     &none &none &none          &none          &none        &none           &none          &none
+				&none &none          &none           &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp TILDE &none &none &kp PIPE       &kp EQUAL      &kp PLUS     &kp MINUS       &kp UNDERSCORE &none
+				&none &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp GRAVE             &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &none          &none
+				&none &none          &none           &none                &none                 &none     &none &none &kp CARET      &kp AMPERSAND  &kp ASTERISK &none           &none          &none
+				&none &none          &none           &none                &none                                                      &none          &none        &none           &none          &none
+				                                                                                &none     &none &none &none
+				                                                          &none                 &none     &none &none &none          &none
+				                                                                                          &none &none
+			>;
+		};
+		layer_3 {
+			bindings = <
+				&bootloader
+				&kp TILDE        &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5  &none             &none         &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8          &kp NUMBER_9 &kp NUMBER_0  &kp BACKSPACE
+				&kp TAB          &kp Q        &kp W        &kp E        &kp R        &kp T         &kp C_VOLUME_UP   &kp C_MUTE    &kp Y        &kp U          &kp I                 &kp O        &kp P         &kp BACKSLASH
+				&kp ESCAPE       &kp A        &kp S        &kp D        &kp F        &kp G                                         &kp H        &kp J          &kp K                 &kp L        &kp SEMICOLON &kp SINGLE_QUOTE
+				&kp LEFT_SHIFT   &kp Z        &kp X        &kp C        &kp V        &kp B         &kp C_VOLUME_DOWN &to LAYER_MAC &kp N        &kp M          &kp COMMA             &kp PERIOD   &kp SLASH     &kp RIGHT_SHIFT
+				&kp LEFT_CONTROL &none        &none        &none        &kp LEFT_ALT                                                            &mo LAYER_SYMB &kp RC(RA(RIGHT_GUI)) &none        &none         &none
+				                                                                     &none         &none             &none         &none
+				                                                        &kp SPACE    &kp BACKSPACE &none             &none         &none        &kp RETURN
+				                                                                                   &none             &mo LAYER_FN
+			>;
+		};
+	};
+
+};
