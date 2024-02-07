@@ -1399,33 +1399,43 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"EXCLAMATION"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"AT_SIGN"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"HASH"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"DOLLAR"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"PERCENT"
+					]
 				},
 				{
 					"Name": "",

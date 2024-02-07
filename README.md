@@ -2,6 +2,8 @@
 
 ## SliceMK Wireless Ergodox
 
+- Build Target: SliceMK ErgoDox Wireless 202108 Green
+
 ### Links
 
 [Current Configuration](./slicemk_ergodox.json)
