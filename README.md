@@ -2,7 +2,8 @@
 
 ## SliceMK Wireless Ergodox
 
-- Build Target: SliceMK ErgoDox Wireless 202108 Green
+- Left Build Target: SliceMK ErgoDox Wireless 202108 Green
+- Dongle Build Target: Nordic nRF52840 Dongle
 
 ### Links
 
