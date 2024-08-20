@@ -1,11 +1,15 @@
 {
+	"Modified": "2024-08-20T16:19:38.159082271Z",
 	"Keyboard": "ergodox",
-	"Board": "nordic_nrf52840_dongle_slicemk",
+	"Board": "raytac_mdbt50q_rx",
 	"Shield": "slicemk_ergodox_dongle",
 	"Kconfig": {},
 	"Advanced": {
 		"Logging": "",
-		"KRO": ""
+		"KRO": "",
+		"MouseMove": "",
+		"MouseScroll": "",
+		"BTParams": ""
 	},
 	"Layers": [
 		{
