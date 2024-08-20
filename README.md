@@ -3,7 +3,7 @@
 ## SliceMK Wireless Ergodox
 
 - Left Build Target: SliceMK ErgoDox Wireless 202108 Green
-- Dongle Build Target: Nordic nRF52840 Dongle
+- Dongle Build Target: Raytac MDBT50Q-Rx (backup: Nordic nRF52840 Dongle)
 
 ### Links
 
