@@ -2,14 +2,18 @@
 
 ## SlickMK Wireless Ergodox LP
 
-- Dongle Build Target: Raytac MDBT50Q-RX Green
+- Left Build Target: SliceMK ErgoDox Wireless 202207 Green
+- Dongle Build Target: Raytac MDBT50Q-CX (Green)
 
 ## SliceMK Wireless Ergodox
 
 - Left Build Target: SliceMK ErgoDox Wireless 202108 Green
-- Dongle Build Target: Raytac MDBT50Q-RX
+- Dongle Build Target: Raytac MDBT50Q-CX (Green)
 
-## Backup Dongle Nordic nRF52840 Dongle)
+## Backup Dongles
+
+- Nordic nRF52840 Dongle
+- Raytac MDBT50Q-RX
 
 ### Links
 
